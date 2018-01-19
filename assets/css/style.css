@@ -1,3 +1,7 @@
+body {
+	background: url(.\assets\images\psychedelic_pattern\psychedelic_pattern_@2X.png)
+}
+
 /* Container holding the image and the text */
 .container {
 	position: relative;
@@ -12,4 +16,20 @@
 	color: white;
 	padding-left: 20px;
 	padding-right: 20px;
+	font-family: cursive;
+}
+
+.media img {
+width: 100px;
+}
+
+footer {
+	background-color: darkslategray;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
 }
