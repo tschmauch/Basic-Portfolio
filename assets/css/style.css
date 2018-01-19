@@ -1,5 +1,5 @@
 body {
-	background: url(.\assets\images\psychedelic_pattern\psychedelic_pattern_@2X.png)
+	background-image: url("./../images/psychedelic_pattern/psychedelic_pattern.png");
 }
 
 /* Container holding the image and the text */
