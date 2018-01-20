@@ -3,6 +3,7 @@ html {
 }
 body {
 	background-image: url("./../images/psychedelic_pattern/psychedelic_pattern.png");
+	margin: 0;
 }
 
 .container {
@@ -33,12 +34,13 @@ footer {
 	background-color: #424242;
 	color: #FEFFF1;
 	text-align: center;
-	padding: 20px;
-	position: fixed;
+	padding: 20px 0;
+	position: relative;
 	bottom: 0;
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
 	margin-top: 10%;
+	clear: both;
 }
 
 .container img {
@@ -63,6 +65,8 @@ h2 {
 #content {
 	width: 960px;
 	margin: auto;
+	margin-bottom: 20px;
+	overflow: hidden;
 }
 
 #portrait {
@@ -105,7 +109,7 @@ h1 {
 	float: left;
 	position: relative;
 	left: 2%;
-	background-color: ;
+	background-color: none;
 	padding: 8px;
 }
 
