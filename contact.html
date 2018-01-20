@@ -10,44 +10,64 @@
 	<link rel="stylesheet" href=".\assets\css\style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
-<header>
-	<h1>Tyler Schmauch</h1>
-	<nav>
-			<ul>
-					<li><a id="about" href="index.html">About</a></li>
-					<li><a id="portfolio" href="portfolio.html">Portfolio</a></li>
-					<li><a id="contact" href="contact.html">Contact</a></li>
-					</ul>
-	</nav>
-</header>
 
 <body>
-	<div id="contactme">
-		<h2>Contact Me</h2>
-		<form action=".\Requests">
-			Name:
-			<input type="text"> Email:
-			<input type="text"> Message:
-			<textarea name="Inquiry" id="message"></textarea>
-			<button>Submit</button>
-		</form>
-	</div>
-
-
-	<div id="medialinks">
+	<header>
+			<h1><a href="index.html">Tyler Schmauch</a></h1>
+		<nav>
+			<ul>
+				<li>
+					<a id="about" href="index.html">About</a>
+				</li>
+				<li>
+					<a id="portfolio" href="portfolio.html">Portfolio</a>
+				</li>
+				<li>
+					<a id="contact" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div id="content">
+		<div id="contactme">
+			<h2>Contact Me</h2>
+			<hr>
+			<form action=".\Requests">
+				Name:
+				<input class="field" type="text"> 
+				<br>
+				<br>
+				Email:
+				<input class="field" type="text"> 
+				<br>
+				<br>
+				Message:
+				<br>
+				<textarea class="field" name="Inquiry" id="message" rows="10"></textarea>
+				<button>Submit</button>
+			</form>
+		</div>
+		<div id="medialinks">
 			<h3>Connect with Me</h3>
+			<hr>
 			<div class="media">
 				<a href="https://github.com/tschmauch">
-					<img src=".\assets\images\github-mark.png" alt="">
+					<img src=".\assets\images\github-mark.png" alt="Github logo">
 				</a>
 			</div>
 			<div class="media">
-			<img src=".\assets\images\linkedin.jpg" alt="">
-				</div>
+				<a href="https://www.linkedin.com/in/tyler-schmauch-09381490/">
+					<img src=".\assets\images\linkedin.jpg" alt="">
+				</a>
+			</div>
 			<div class="media">
-			<img src=".\assets\images\stackoverflow.png" alt="">
+				<a href="https://stackoverflow.com/users/9191290/tyler-schmauch?tab=profile">
+					<img src=".\assets\images\stackoverflow.png" alt="">
+				</a>
 			</div>
 		</div>
+	</div>
+
 </body>
 <footer>
 	&copy; Copyright 2018 Tyler Schmauch
