@@ -1,9 +1,11 @@
 html {
 	font-family: 'Open Sans', sans-serif;
+	height: 100%;
 }
 body {
 	background-image: url("./../images/psychedelic_pattern/psychedelic_pattern.png");
 	margin: 0;
+	height: 100%;
 }
 
 .container {
@@ -35,7 +37,7 @@ footer {
 	color: #FEFFF1;
 	text-align: center;
 	padding: 20px 0;
-	position: relative;
+	position: absolute;
 	bottom: 0;
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
