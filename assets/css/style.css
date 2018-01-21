@@ -163,6 +163,7 @@ hr {
 	float: left;
 	margin: auto;
 	padding: .5%;
+	border-radius: 2.5%;
 }
 
 #contactme {
@@ -173,6 +174,7 @@ hr {
 	float: left;
 	margin: auto;
 	padding: .5%;
+	border-radius: 2.5%;
 }
 
 .field {
