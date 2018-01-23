@@ -6,6 +6,8 @@ body {
 	background-image: url("./../images/psychedelic_pattern/psychedelic_pattern.png");
 	margin: 0;
 	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .container {
@@ -37,11 +39,10 @@ footer {
 	color: #FEFFF1;
 	text-align: center;
 	padding: 20px 0;
-	position: absolute;
+
 	bottom: 0;
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
-	margin-top: 10%;
 	clear: both;
 }
 
@@ -70,6 +71,7 @@ h2 {
 	margin: auto;
 	margin-bottom: 20px;
 	overflow: hidden;
+	flex: 1 0 auto;
 }
 
 #portrait {
@@ -86,7 +88,6 @@ p {
 header {
 	background-color: #424242;
 	color: #FEFFF1;
-	padding-bottom: 100px;
 	margin-bottom: 2%;
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
@@ -95,6 +96,7 @@ nav {
 	position: relative;
 	float: right;
 	width: 33%;
+	height: 100%;
 }
 
 ul {
@@ -188,4 +190,10 @@ textarea { height: auto; }
 a {
 	color: #FEFFF1;
 	text-decoration: none;
+}
+.navigation {
+	background-color: 	;
+	padding: 1%;
+	padding-right, padding-left: 2.5%;
+	border-radius: 15%;
 }
